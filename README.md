@@ -3,7 +3,7 @@
 <p>	RentoMojo is an online rental platform that provides furniture, appliances and electronics (mobiles, laptops) on a monthly rental basis. </p>
 
 ## About this project.
-This project is built by us (4 team members) during construct week of unit 3 at Masai School.
+This project is built by us (4 team members) during construct week of unit 6 at Masai School.
 Netlify link:- https://rentomojo-kappa.vercel.app
 
 ## Team Members.
@@ -47,6 +47,7 @@ Netlify link:- https://rentomojo-kappa.vercel.app
 5.  Redux
 6.  Chakra-Ui
 7.  JSON-Server
+8.  Firebase Authentication 
 
 ## Tools Used
 
