@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios'
 import {
   Alert,
   AlertIcon,
@@ -53,7 +54,9 @@ const [otp, setOtp] = useState('');
         if (!loginName || !loginEmail || !loginNumber || !loginPassword) {
           setFlag(true);
         } else {
-          await signUp(loginEmail, loginPassword); // Adjust this for your signup logic
+           await axios.post('http://localhost:8500///api/v1/signup', { email: loginEmail, password: loginPassword });
+
+          // Adjust this for your signup logic
           // Additional logic for saving user details if needed
           setHome(!home);
           setFlag(false);
